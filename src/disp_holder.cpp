@@ -62,7 +62,7 @@
 #include <cstring>
 
 const size_t DispHolder::INVALID_INDEX = size_t( -1 );
-const size_t DispHolder::MAX_SIZE = 65535;
+const size_t DispHolder::MAX_SIZE = 1048575;
 
 namespace {
 // struct TimeCmp {
